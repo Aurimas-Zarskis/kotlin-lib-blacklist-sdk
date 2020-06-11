@@ -36,7 +36,7 @@ dependencies {
 
     kapt("com.squareup.moshi:moshi-kotlin-codegen:1.9.2")
 
-    implementation ('com.github.aurimas-zarskis:kotlin-lib-common-sdk:b89902d') {
+    implementation ('com.github.aurimas-zarskis:kotlin-lib-common-sdk:f091bc1') {
         exclude group: 'org.json', module: 'json'
     }
 
